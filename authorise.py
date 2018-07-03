@@ -27,10 +27,8 @@ def GetService(api_name, api_version, scope, client_secrets_path):
 
     return service
 
-def main(argv):
-    scope = ['https://www.googleapis.com/auth/tagmanager.edit.containers']
-    service = GetService('tagmanager', 'v2', scope, 'client_secrets.json')
 
 
+# def main(argv):
 # if __name__ == '__main__':
 #   main(sys.argv)
